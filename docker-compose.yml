@@ -16,5 +16,3 @@ services:
         #JDBC_PARAMS: "ssl=true"
       ports:
         - 8080:8080
-      depends_on:
-        - postgres
