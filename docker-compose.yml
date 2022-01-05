@@ -5,7 +5,7 @@ services:
       image: quay.io/keycloak/keycloak:latest
       environment:
         DB_VENDOR: POSTGRES
-        DB_ADDR: postgres
+        DB_ADDR: postgresql
         DB_DATABASE: okteto
         DB_USER: okteto
         DB_SCHEMA: public
