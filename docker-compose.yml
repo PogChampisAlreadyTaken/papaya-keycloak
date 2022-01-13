@@ -19,4 +19,4 @@ services:
         - 8080:8080
       volumes:
       - ./keycloak-data:/opt/jboss/keycloak/standalone/data
-      - ./papaya-background.png:/opt/jboss/keycloak/themes/keycloak/login/resources/img/keycloak-bg.png
+      - ./papaya-background.jpg:/opt/jboss/keycloak/themes/keycloak/login/resources/img/keycloak-bg.png
