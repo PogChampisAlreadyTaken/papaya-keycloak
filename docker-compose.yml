@@ -17,3 +17,6 @@ services:
         #JDBC_PARAMS: "ssl=true"
       ports:
         - 8080:8080
+      volumes:
+      - ./keycloak-data:/opt/jboss/keycloak/standalone/data
+      - ./papaya-background.png:/opt/jboss/keycloak/themes/keycloak/login/resources/img/keycloak-bg.png
